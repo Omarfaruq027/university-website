@@ -38,6 +38,9 @@
         font-size: 22px;
         cursor: pointer;
     }
+    .row {
+        flex-direction: column;
+    }
 }
 
 
@@ -80,6 +83,9 @@
         margin: 8px;
         font-size: 22px;
         cursor: pointer;
+    }
+    .row {
+        flex-direction: column;
     }
 }
 
