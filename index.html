@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet">
     <!-- google fonts link -->
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- font awesome  -->
     <!-- css link -->
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./responsive.css">
@@ -24,32 +28,49 @@
             <!-- navbar -->
             <nav>
                 <a href="index.html"><img src="./images/logo.png" alt="logo"></a>
-
-                <div class="nav-links">
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                     <ul>
                         <li>
-                            <a href="">HOME</a>
+                            <a href="#">HOME</a>
                         </li>
                         <li>
-                            <a href="">ABOUT</a>
+                            <a href="#">ABOUT</a>
                         </li>
                         <li>
-                            <a href="">COURSE</a>
+                            <a href="#">COURSE</a>
                         </li>
                         <li>
-                            <a href="">BLOG</a>
+                            <a href="#">BLOG</a>
                         </li>
                         <li>
-                            <a href="">CONTRACT</a>
+                            <a href="#">CONTRACT</a>
                         </li>
                     </ul>
-
                 </div>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>World's biggest University</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Nihccil expedita tempore rerdum in inventdore dcolores<br> volssuptates fugsiat odit autem corsporis. Ani consecto!</p>
+                <button class="visit-button"><a href="#">Visit us to know more</a></button>
+            </div>
         </section>
-        </nav>
+
         <!-- navbar end -->
     </header>
     <!-- header end -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0"
+        };
+
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        };
+    </script>
 </body>
 
 </html>
