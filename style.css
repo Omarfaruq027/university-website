@@ -218,3 +218,38 @@
         opacity: 1;
     }
     /* campus end */
+    /* facilities start */
+    
+    .facilities {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 40px;
+    }
+    
+    .facilities-col {
+        flex-basis: 31%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: left;
+    }
+    
+    .facilities-col img {
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .facilities-col h3 {
+        font-size: 16px;
+        font-weight: 800;
+        margin-top: 14px;
+        margin-bottom: 15px;
+        /* display: flex;
+        justify-content: center; */
+    }
+    
+    .facilities-col p {
+        font-size: 13px;
+        padding: 0;
+    }
+    /* facilities end */
