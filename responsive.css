@@ -45,6 +45,9 @@
         margin-left: 0px;
         margin-right: 30px;
     }
+    .call-to-action h1 {
+        font-size: 20px;
+    }
 }
 
 
@@ -94,6 +97,9 @@
     .testimonial-col img {
         margin-left: 0px;
         margin-right: 30px;
+    }
+    .call-to-action h1 {
+        font-size: 20px;
     }
 }
 

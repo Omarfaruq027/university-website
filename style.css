@@ -291,3 +291,28 @@
         font-size: 13px;
         padding: 0;
     }
+    /*  facilities end */
+    /* 
+       call for action start */
+    
+    .call-to-action {
+        margin: 70px auto;
+        width: 80%;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/banner2.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+        text-align: center;
+        padding: 100px 0;
+    }
+    
+    .call-to-action h1 {
+        color: antiquewhite;
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    
+    span {
+        color: aliceblue;
+    }
+    /* call for action end */
