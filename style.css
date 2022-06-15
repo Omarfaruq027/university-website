@@ -296,7 +296,7 @@
        call for action start */
     
     .call-to-action {
-        margin: 70px auto;
+        margin: 50px auto;
         width: 80%;
         background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/banner2.jpg);
         background-position: center;
@@ -316,3 +316,33 @@
         color: aliceblue;
     }
     /* call for action end */
+    /* footer start  */
+    
+    .footer {
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+    }
+    
+    .footer h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        font-weight: 600;
+    }
+    
+    .icons .fa-brands {
+        font-size: 35px;
+        color: #f44338;
+        margin: 0 13px;
+        cursor: pointer;
+        padding: 18px 0;
+    }
+    
+    .rights {
+        font-size: 10px;
+        padding: 10px;
+        cursor: pointer;
+        color: #f44338;
+        justify-content: center;
+    }
+    /* footer end */
